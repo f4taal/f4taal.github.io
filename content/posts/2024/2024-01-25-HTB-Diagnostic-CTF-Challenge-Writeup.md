@@ -5,15 +5,15 @@ tags : ["Forensics"]
 
 ---
 
-# ##
+## Introduction
 
-- This is a good one to start off the weak and understanding the Forensic based challenges and how to go about it
+In this write-up, we'll explore the cool tricks and challenges of figuring out cybercrimes. We'll learn how to grab data safely, analyze it, and deal with sneaky stuff without messing up. This will help to understand and beat the Forensic based challenges and how to go about it.
 
 ## Diagnostic
 
-This challenge tests the knowledge of forensics,,the challenge is available in Hack the Box in forensic category,
+This challenge tests the knowledge of forensics,,tit's available on Hack the Box in forensic category,
 
-**Initiate the challenge step 1**
+**step 1**
 
 Download the file by pasting the IP on the browser, open the file (diagnostic.doc) 
 you can analyze the file by using *oleid* and *oleobj* tool, This tool is used to analyze such documents to check what they contains, and the relationship between the two.
@@ -32,7 +32,7 @@ Now copy the content and paste it to the text editor of your choice, i used SCIT
 **step 3**
 
 Now convert the Characters to Ascii, in this case we going to refer to Ascii table by visiTING ascii.com, and after converting, copy the part of the content to and convert it to *base 64 string* using the online tools of your choice, i used the *Cyberchef* and the other part too convert it to base 64 string. 
-![webbrowser](static/img/angstrom/diagnostic7.png)
+![image](https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/diagnostic7.png)
 
 **Step 4**
 
