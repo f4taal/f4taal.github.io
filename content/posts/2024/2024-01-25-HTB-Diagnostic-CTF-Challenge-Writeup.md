@@ -17,7 +17,7 @@ This challenge tests the knowledge of forensics,,the challenge is available in H
 
 Download the file by pasting the IP on the browser, open the file (diagnostic.doc) 
 you can analyze the file by using *oleid* and *oleobj* tool, This tool is used to analyze such documents to check what they contains, and the relationship between the two.
-![first](static/img/angstrom/diagnostic3.png)
+![image](https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/diagnostic3.png)
 
 **Step 2**
 
