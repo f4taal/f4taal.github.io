@@ -1,0 +1,4 @@
+baseURL = 'https://f4taal.github.io/'
+languageCode = 'en-us'
+title = 'My Blog'
+enableEmoji = true
