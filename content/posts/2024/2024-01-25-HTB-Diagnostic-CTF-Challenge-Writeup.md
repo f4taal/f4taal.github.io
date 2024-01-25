@@ -37,7 +37,7 @@ Now convert the Characters to Ascii, in this case we going to refer to Ascii tab
 **Step 4**
 
 After converting we can see that they the first part is quite interesting, the content of the first part is 
-![webbrowser](static/img/angstrom/diagnostic6.png)
+![Image](https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/diagnostic6.png)
     .
 
 you can see that the content has arrays and string values, as the name of the first file, this might contain the flag, to concatinate this i used power shell,
