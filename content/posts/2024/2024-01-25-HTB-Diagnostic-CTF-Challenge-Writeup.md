@@ -26,7 +26,7 @@ Paste the link on the webbrowser, and the page was empty so i decided to inspect
 ![webbrowser](static/img/angstrom/diagnostic4.png)
    it's so interesting'
 Now copy the content and paste it to the text editor of your choice, i used SCITE,
-![Content](static/img/angstrom/diagnostic 5.png)
+(![Image]https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/diagnostic%205.png)
 
 
 **step 3**
