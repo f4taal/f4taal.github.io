@@ -218,16 +218,12 @@ Notice that the powershell script is obfusucated and we have to concate to the c
 ```
   ${f`ile} = ("{7}{1}{6}{8}{5}{3}{2}{4}{0}"-f'}.exe','B{msDt_4s_A_pr0','E','r...s','3Ms_b4D','l3','toC','HT','0l_h4nD')
 ```
-
+![Image](https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/pwshflag.png)
 
 **Flag**
 ```
    HTB{msDt_4s_A_pr0toC0l_h4nDl3r...sE3Ms_b4D}
 ```
-
-
-<--View More-->
-
 
 ## Tools
 
