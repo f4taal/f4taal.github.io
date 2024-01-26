@@ -11,21 +11,32 @@ In this write-up, we'll explore the cool tricks and challenges of figuring out c
 
 ## Diagnostic
 
+
 This challenge tests the knowledge of forensics,,tit's available on Hack the Box in forensic category,
+
 
 **step 1**
 
 Download the file by pasting the IP on the browser, open the file (diagnostic.doc) 
-you can analyze the file by using *oleid* and *oleobj* tool, This tool is used to analyze such documents to check what they contains, and the relationship between the two.
+you can analyze the file by using *oleid* and *oleobj* tool, oleobj is a Python script and module to parse OLE objects and files stored into various MS Office file formats (doc, xls, ppt, docx, xlsx, pptx, etc)
+
+
 ![image](https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/diagnostic3.png)
+
 
 **Step 2**
 
+
 Paste the link on the webbrowser, and the page was empty so i decided to inspect,I found a script content,
 
+
 ![image](https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/diagnostic4.png)
+
+
    it's so interesting'
 Now copy the content and paste it to the text editor of your choice, i used SCITE,
+
+
 ![Image](https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/diagnostic%205.png)
 
 
@@ -214,13 +225,17 @@ ${f`ile} = ("{7}{1}{6}{8}{5}{3}{2}{4}{0}"-f'}.exe','B{msDt_4s_A_pr0','E','r...s'
 ![Image](https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/diagnostic6.png)
     
 
-Notice that the powershell script is obfusucated and we have to concate to the correct order to get the flag, 
+Notice that the powershell script is obfusucated and we have to concate to the correct order to get the flag.
+
 ```
   ${f`ile} = ("{7}{1}{6}{8}{5}{3}{2}{4}{0}"-f'}.exe','B{msDt_4s_A_pr0','E','r...s','3Ms_b4D','l3','toC','HT','0l_h4nD')
 ```
+
 ![Image](https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/pwshflag.png)
 
+
 **Flag**
+
 ```
    HTB{msDt_4s_A_pr0toC0l_h4nDl3r...sE3Ms_b4D}
 ```
