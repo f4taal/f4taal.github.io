@@ -237,7 +237,7 @@ Notice that the powershell script is obfusucated and we have to concate to the c
 **Flag**
 
 ```
-   HTB{msDt_4s_A_pr0toC0l_h4nDl3r...sE3Ms_b4D}
+HTB{msDt_4s_A_pr0toC0l_h4nDl3r...sE3Ms_b4D}
 ```
 
 ## Tools
