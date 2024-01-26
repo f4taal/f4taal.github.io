@@ -34,7 +34,7 @@ Now copy the content and paste it to the text editor of your choice, i used SCIT
 Now convert the Characters to Ascii, in this case we going to refer to Ascii table by visiTING ascii.com, and after converting, copy the part of the content to and convert it to *base 64 string* using the online tools of your choice, i used the *Cyberchef* and the other part too convert it to base 64 string.
 
 
-####Decoded content
+**Decoded content**
 
 ```
 ${f`ile} = ("{7}{1}{6}{8}{5}{3}{2}{4}{0}"-f'}.exe','B{msDt_4s_A_pr0','E','r...s','3Ms_b4D','l3','toC','HT','0l_h4nD')
@@ -203,7 +203,7 @@ Dear old N.C.U.
 
 After converting we notice that they the first part is quite interesting, 
 
-####Decoded Message
+**Decoded Message**
 
 ```
 ${f`ile} = ("{7}{1}{6}{8}{5}{3}{2}{4}{0}"-f'}.exe','B{msDt_4s_A_pr0','E','r...s','3Ms_b4D','l3','toC','HT','0l_h4nD')
