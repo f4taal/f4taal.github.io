@@ -21,7 +21,7 @@ Download the file by pasting the IP on the browser, open the file (diagnostic.do
 you can analyze the file by using *oleid* and *oleobj* tool, oleobj is a Python script and module to parse OLE objects and files stored into various MS Office file formats (doc, xls, ppt, docx, xlsx, pptx, etc)
 
 
-![image](https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/diagnostic3.png)
+![image](/https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/diagnostic3.png)
 
 
 **Step 2**
