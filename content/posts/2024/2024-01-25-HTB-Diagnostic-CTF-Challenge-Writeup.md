@@ -30,14 +30,14 @@ you can analyze the file by using *oleid* and *oleobj* tool, oleobj is a Python 
 Paste the link on the webbrowser, and the page was empty so i decided to inspect,I found a script content,
 
 
-![image](https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/diagnostic4.png)
+![image](/img/Diagnostic/diagnostic4.png)
 
 
    it's so interesting'
 Now copy the content and paste it to the text editor of your choice, i used SCITE,
 
 
-![Image](https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/diagnostic%205.png)
+![Image](/img/Diagnostic/diagnostic%205.png)
 
 
 **step 3**
@@ -208,7 +208,7 @@ Naught can break the friendships formed at
 Dear old N.C.U.
 ```
 
-![image](https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/diagnostic7.png)
+![image](/img/Diagnostic/diagnostic7.png)
 
 **Step 4**
 
@@ -222,7 +222,7 @@ ${f`ile} = ("{7}{1}{6}{8}{5}{3}{2}{4}{0}"-f'}.exe','B{msDt_4s_A_pr0','E','r...s'
 &((("{5}{6}{2}{8}{0}{3}{7}{4}{1}" -f'L9FTasksL9F','ile','ow','L','f','C:','L9FL9FWind','9FkzH','sL9F'))  -CReplAce'kzH',[chAr]36 -CReplAce([chAr]76+[chAr]57+[chAr]70),[chAr]92)
 ```
 
-![Image](https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/diagnostic6.png)
+![Image](/img/Diagnostic/diagnostic6.png)
     
 
 Notice that the powershell script is obfusucated and we have to concate to the correct order to get the flag.
@@ -231,7 +231,7 @@ Notice that the powershell script is obfusucated and we have to concate to the c
   ${f`ile} = ("{7}{1}{6}{8}{5}{3}{2}{4}{0}"-f'}.exe','B{msDt_4s_A_pr0','E','r...s','3Ms_b4D','l3','toC','HT','0l_h4nD')
 ```
 
-![Image](https://github.com/f4taal/f4taal.github.io/blob/main/static/img/Diagnostic/pwshflag.png)
+![Image](/img/Diagnostic/pwshflag.png)
 
 
 **Flag**
