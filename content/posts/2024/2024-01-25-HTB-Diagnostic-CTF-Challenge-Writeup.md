@@ -4,12 +4,12 @@ title: Diagnostic HTB CTF Write-up
 tags : ["Forensics"]
 
 ---
-
 ## Introduction
-
+<p>&nbsp;</p>
 
 In this comprehensive write-up, we will delve into the intricate world of digital forensics, exploring the clever tricks and challenges involved in uncovering cybercrimes. Our focus will be on safely extracting and analyzing data, navigating through various obstacles, and mastering the art of forensic investigation. This guide aims to provide insights into overcoming challenges on platforms like Hack The Box and gaining proficiency in forensic-based scenarios.
 
+<p>&nbsp;</p>
 
 ## Diagnostic
 
@@ -30,6 +30,7 @@ The Diagnostic challenge, categorized under Forensics on Hack The Box, serves as
 
 - Upon pasting the link in the web browser, an initially empty page reveals a script content.
 - Inspect the page and discover intriguing script content.
+
 
 ![image](/img/Diagnostic/diagnostic4.png)
 
