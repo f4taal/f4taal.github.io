@@ -7,42 +7,44 @@ tags : ["Forensics"]
 
 ## Introduction
 
-In this write-up, we'll explore the cool tricks and challenges of figuring out cybercrimes. We'll learn how to grab data safely, analyze it, and deal with sneaky stuff without messing up. This will help to understand and beat the Forensic based challenges and how to go about it.
+
+In this comprehensive write-up, we will delve into the intricate world of digital forensics, exploring the clever tricks and challenges involved in uncovering cybercrimes. Our focus will be on safely extracting and analyzing data, navigating through various obstacles, and mastering the art of forensic investigation. This guide aims to provide insights into overcoming challenges on platforms like Hack The Box and gaining proficiency in forensic-based scenarios.
+
 
 ## Diagnostic
 
 
-This challenge tests the knowledge of forensics,,tit's available on Hack the Box in forensic category,
+The Diagnostic challenge, categorized under Forensics on Hack The Box, serves as a practical test of forensic knowledge and skills.
 
 
-**step 1**
+**Step 1: Retrieving and Analyzing the File**
 
-Download the file by pasting the IP on the browser, open the file (diagnostic.doc) 
-you can analyze the file by using *oleid* and *oleobj* tool, oleobj is a Python script and module to parse OLE objects and files stored into various MS Office file formats (doc, xls, ppt, docx, xlsx, pptx, etc)
+- Download the file (diagnostic.doc) by accessing the provided IP in the browser.
+- Utilize tools like **oleid** and **oleobj** to analyze the file.  **oleobj** is a Python script and module to parse OLE objects and files stored into various MS Office file formats (doc, xls, ppt, docx, xlsx, pptx, etc)
 
 
 ![image](/img/Diagnostic/diagnostic3.png)
 
 
-**Step 2**
+**Step 2: Inspecting Web Browser Content**
 
-
-Paste the link on the webbrowser, and the page was empty so i decided to inspect,I found a script content,
-
+- Upon pasting the link in the web browser, an initially empty page reveals a script content.
+- Inspect the page and discover intriguing script content.
 
 ![image](/img/Diagnostic/diagnostic4.png)
 
 
    it's so interesting'
-Now copy the content and paste it to the text editor of your choice, i used SCITE,
+- Copy the script content to a text editor for further analysis (e.g., SCITE).
 
 
 ![Image](/img/Diagnostic/diagnostic%205.png)
 
 
-**step 3**
+**step 3:  Decoding and Converting Characters**
 
-Now convert the Characters to Ascii, in this case we going to refer to Ascii table by visiTING ascii.com, and after converting, copy the part of the content to and convert it to *base 64 string* using the online tools of your choice, i used the *Cyberchef* and the other part too convert it to base 64 string.
+- Convert characters to ASCII using the **ASCII table** from ascii.com.
+- Use an online tool (e.g., CyberChef) to convert parts of the content to **base64 strings**.
 
 
 **Decoded content**
@@ -210,9 +212,11 @@ Dear old N.C.U.
 
 ![image](/img/Diagnostic/diagnostic7.png)
 
-**Step 4**
 
-After converting we notice that they the first part is quite interesting, 
+**Step 4: Uncovering the Decoded Message**
+
+After converting we notice that the first part is quite interesting, 
+
 
 **Decoded Message**
 
@@ -225,12 +229,15 @@ ${f`ile} = ("{7}{1}{6}{8}{5}{3}{2}{4}{0}"-f'}.exe','B{msDt_4s_A_pr0','E','r...s'
 ![Image](/img/Diagnostic/diagnostic6.png)
     
 
-Notice that the powershell script is obfusucated and we have to concate to the correct order to get the flag.
+- Decoded message reveals a PowerShell script with interesting concatenation.
 
 ```
   ${f`ile} = ("{7}{1}{6}{8}{5}{3}{2}{4}{0}"-f'}.exe','B{msDt_4s_A_pr0','E','r...s','3Ms_b4D','l3','toC','HT','0l_h4nD')
 ```
 
+ - Concatenate the PowerShell script correctly to unveil the flag.
+
+ 
 ![Image](/img/Diagnostic/pwshflag.png)
 
 
@@ -240,12 +247,14 @@ Notice that the powershell script is obfusucated and we have to concate to the c
 HTB{msDt_4s_A_pr0toC0l_h4nDl3r...sE3Ms_b4D}
 ```
 
-## Tools
+## Tools used
 
 - cyberchef
 - oleid
 - powershell
 
 
-## References 
+## Conclusion
+
+This write-up provides a step-by-step guide to solving the Diagnostic HTB CTF Forensic Challenge. By exploring the intricacies of digital forensics, users can enhance their skills in analyzing and decoding complex scenarios, ultimately contributing to their proficiency in cybersecurity challenges.
 
