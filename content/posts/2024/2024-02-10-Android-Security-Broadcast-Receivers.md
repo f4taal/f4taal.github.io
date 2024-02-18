@@ -35,7 +35,7 @@ First, we need to check which receivers are available in our target. To achieve 
 adb shell dumpsys package com.android.insecurebankv2 --include-all 
 ```
 
-![](frida3/frida3-3.png)
+![image](img/BR-Frida1/frida3-3.png)
 
 Given that ``MyBroadCastReceiver`` processes actions with the name ``theBroadcast`` and is exported without protection by permission, any app can create an Intent triggering this receiver. 
 
@@ -45,7 +45,7 @@ Given that ``MyBroadCastReceiver`` processes actions with the name ``theBroadcas
 
 View the source code using tools like Bytecode Viewer to understand the receiver's capabilities, as illustrated in the accompanying image.
 
-![](frida3/frida3-4.png)
+![image](img/BR-Frida1/frida3-4.png)
 
 After observing, the source code reveals that the receiver retrieves two parameters, `phone number` and `newpass` from the incoming Intent. Subsequently, the code accesses data stored in Shared Preferences, conducts cryptographic operations and concludes by invoking the SmsManager.sendTextMessage() method.
 
@@ -88,13 +88,13 @@ Save the script and name it list.js, now run;
 frida -U -l list.js -f com.android.insecurebankv2
 ```
 
-![](frida3/frida3-5.png)
+![image](img/BR-Frida1/frida3-5.png)
 
-![](frida3/frida3-6.png)
+![image](img/BR-Frida1/frida3-6.png)
 
 *SMS sent successfully*
 
-![](frida3/frida3-7.png)
+![image](img/BR-Frida1/frida3-7.png)
 
 After running our script, we noticed on our console that the broadcast was triggered successfully. and the popup on our application. 
 
