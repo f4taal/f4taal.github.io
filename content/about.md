@@ -29,7 +29,7 @@ Who am I?
 
 Greetings, cyber voyagers!
 
-My name is Fataal, Am a JUnior Security Analyst
+My name is Fataal, I Am a Junior Security Analyst
 
 *Skills*
 
@@ -37,6 +37,7 @@ My name is Fataal, Am a JUnior Security Analyst
 - Network Configurations
 - Reporting and Documentation
 - IT risk management
+- Cloud Security
 
 <b>Tools</b>
 
@@ -49,9 +50,8 @@ My name is Fataal, Am a JUnior Security Analyst
 - HTML5
 - PHP
 - Javascript
-- python
+- Python
 
-Below are some of my Experiences
 
 *Experience*
 
@@ -60,15 +60,5 @@ Below are some of my Experiences
 
 <b>JAN – MARCH 2023</b> ATTACHÉ, GEARBOX ACADEMY 
 
-*Honors & Achievements*
 
-**Academic Project	Online Crime Monitoring, Reporting, and Response System	Nov 2022**
-I developed and implemented the system as a comprehensive academic project, designed and implemented the system architecture, database structure, and user interface to facilitate efficient crime monitoring and reporting using appropriate programming languages and frameworks,(PHP, MYSQL, and JavaScript) to develop the system, ensuring functionality and usability. • Conducted a research project on emerging cyber threats and presented findings to the team
-
-**CA CyberRise Hackathon 2023**
-
-I participated in the 2023 CA hackathon which covered various cyber security concepts, including, mobile application development, digital forensics, and networking
-Zetech ITECH Community
-
-I have been a vibrant member of Tech communities (iTech, Google developer Students’ clubs, Huawei ICT academy, SheHacks cyber security) from 2021 to date.
 
