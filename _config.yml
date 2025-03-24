@@ -30,6 +30,8 @@ github:
 
 twitter:
   username: tifaIsla # change to your Twitter username
+linkedin:
+  username: fataal-muthoni  
 
 social:
   # Change to your full name.
@@ -38,7 +40,7 @@ social:
   email: muthonifataal@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/tifaIsla # change to your Twitter homepage
+    - https://www.linkedin.com/in/fataal-muthoni/ # change to your Twitter homepage
     - https://github.com/f4taal # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
