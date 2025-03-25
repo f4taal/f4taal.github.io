@@ -1,5 +1,5 @@
 ---
-date: "2024-12-28T00:00:00Z"
+date: "2025-02-26T00:00:00Z"
 title: Deployment of Microsoft Sentinel SIEM on Azure and SIEM Integration with Artificial Intelligence (ChatGPT)
 tags : ["Cloud","SIEM"]
 
