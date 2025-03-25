@@ -1,15 +1,15 @@
 ---
 date: "2024-12-28T00:00:00Z"
 title: Deployment of Microsoft Sentinel SIEM on Azure and SIEM Integration with Artificial Intelligence (ChatGPT)
-tags : ["Cloud", "SIEM"]
+tags : ["Cloud","SIEM"]
 
 ---
 # Microsoft-Sentinel-SIEM-Project
-Configure and Deploy Microsoft Sentinel SIEM and Intergrate with ChatGPT
+Configure and Deploy Microsoft Sentinel SIEM and integrate with ChatGPT
 
 ### Introduction
 
-Microsoft Sentinel is a cloud-native SIEM solution developed by Microsoft Azure. It provides advanced security analytics and threat intelligence to swiftly identify, investigate, and address potential security threats. This tutorial aims to provide instructions on configuring the Microsoft Sentinel SIEM function made available in Azure. Through this tutorial, I can create alert rules for response, link data sources, and use Sentinel to investigate past incidents. The tutorial's main goal is to explore Microsoft Sentinel's features step-by-step and demonstrate how to strengthen its cyber defense.
+Microsoft Sentinel is a cloud-native SIEM solution developed by Microsoft Azure. It provides advanced security analytics and threat intelligence to swiftly identify, investigate, and address potential security threats. This tutorial aims to provide instructions on configuring the Microsoft Sentinel SIEM function made available in Azure. Through this tutorial, I can create alert rules for response, link data sources, and use Sentinel to investigate past incidents. The tutorial's primary goal is to explore Microsoft Sentinel's features step-by-step and demonstrate how to strengthen its cyber defense.
 
 ### Prerequisites
 
@@ -18,7 +18,7 @@ Before starting, I made sure I had the following;
 - Access to the Microsoft Azure Portal
 - A basic understanding of security operations
 
-### step 1: Setting Up Microsoft Sentinel
+### Step 1: Setting Up Microsoft Sentinel
 
 1. **Create Azure Workspace** - Select the subscription, resource group, and region.
 
@@ -138,7 +138,7 @@ The guide covers the installation and configuration of ChatGPT within Microsoft 
 Integrating ChatGPT with Microsoft Sentinel requires a clear and precise approach to maximize its effectiveness. By leveraging AI-driven analysis, ChatGPT enhances Sentinel’s SIEM capabilities, improving the identification and resolution of security threats. Through natural language processing, the SIEM platform can analyze logs, alerts, and reports while generating actionable recommendations for security incidents by integrating data from multiple sources.
 
 ### Requirements
-In this step the requirements necessary for a successful deployment are listed below;
+In this step, the requirements necessary for a successful deployment are listed below;
 
 1. Access to Microsoft Sentinel, Microsoft’s cloud-based SIEM solution.
 
@@ -225,7 +225,7 @@ During the Testing and Validation phase, I conducted a comprehensive assessment 
 ![image](/img/truesecrets/project5-24.png)
 
 ### Step 6
-- **Troubleshoot errors by adjusting the playbook** - I addressed issues by updating the integration playbook, modifying the connection to align with our current setup.
+- **Troubleshoot errors by adjusting the playbook** - I addressed issues by updating the integration playbook and modifying the connection to align with our current setup.
 <br>
 
 ![image](/img/truesecrets/project5-21.png)
