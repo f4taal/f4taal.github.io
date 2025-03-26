@@ -219,7 +219,7 @@ ssh -w 0:0 root@192.168.20.99 \
 2. Configure Routing on A: ```ip route add 192.168.20.0/24 dev tun0``` the test telnet from A: ```telnet 192.168.20.5 23```
 
 ## Task 3.2: Bypassing Egress Firewall
-Create VPN from B to A the set Up NAT on A the test access from B, B1, B2 using curl to access blocked sites.
+Create VPN from B to A the set Up NAT on A the test access from B, B1, and B2 using curl to access blocked sites.
 After this set up, we were able to access the blocked sites, this is because VPN encrypts traffic, making it indistinguishable from SSH, bypassing both ingress and egress rules.
 
 ![image](/img/firewall/firewall-26.png)
