@@ -68,7 +68,7 @@ All three requests failed due to egress filtering.
 
 
 # Task 1: Static Port Forwarding
-Use SSH static port forwarding to bypass the ingress firewall and access a restricted service (e.g., Telnet) on the internal network. Create a tunnel between the external network and the internal network to telnet into the server on B1. We should telnet from hosts A, A1 and A2. 
+Use SSH static port forwarding to bypass the ingress firewall and access a restricted service (e.g., Telnet) on the internal network. Create a tunnel between the external and internal networks to connect the telnet to the server on B1. We should telnet from hosts A, A1 and A2. 
 
 *Q1: How many TCP connections are involved in this entire process. You should run wireshark or tcpdump to capture the network traffic, and then point out all the involved TCP connections from the captured traffic*.
 
