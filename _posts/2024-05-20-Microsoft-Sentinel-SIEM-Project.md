@@ -206,7 +206,7 @@ During the Testing and Validation phase, I conducted a comprehensive assessment 
 - **Create automation in SIEM with ChatGPT** - I created automated workflows to enhance and streamline incident response processes.
 <br>
 
-![image](/img/truesecrets/pro5-16.png)
+![image](/img/truesecrets/project5-16.png)
 
 ![image](/img/truesecrets/project5-17.png)
 
