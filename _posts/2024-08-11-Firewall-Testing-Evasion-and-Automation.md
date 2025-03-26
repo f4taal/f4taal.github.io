@@ -57,8 +57,8 @@ From an internal host (e.g., B: 192.168.20.99), test:
 
 ```bash
 curl www.example.com
-curl www.facebook.com
-curl www.twitter.com
+curl www.bbc.com
+curl https://edition.cnn.com
 ```
 ![image](/img/firewall/firewall-9.png)
 
@@ -97,13 +97,7 @@ telnet 10.8.0.5 2023
 Connects to B1’s Telnet server.
 
 ## Analyze Traffic
-Run tcpdump on the router
-
-```bash
-tcpdump -i eth0
-``` 
-
-Observe two TCP connections
+Run tcpdump or wireshark on the router and observe two TCP connections
 A (10.8.0.99:random_port) → B (192.168.20.99:22) for SSH.
 B (192.168.20.99:random_port) → B1 (192.168.20.5:23) for Telnet.
 
@@ -164,6 +158,10 @@ Visit blocked sites from the host VM (192.168.20.1).
 
 Use tcpdump on the router to confirm tunnel traffic.
 
+```bash
+cpdump -i any -w capture.pcap
+```
+
 ![image](/img/firewall/firewall-22.png)
 
 ![image](/img/firewall/firewall-23.png)
@@ -174,7 +172,7 @@ Break the Tunnel by killing the SSH process on B and when you retry browsing the
 
 In this lab task, write a python script and use it to access http://www.example.com from hosts B, B1, and B2. The code should send HTTP requests, not HTTPS requests (sending HTTPS requests is much more complicated due to the TLS handshake). Run on B, B1, B2:
 
-``` Python
+```bash
 #!/bin/env python3
 
 import socks
@@ -196,6 +194,7 @@ response = s.recv(2048)
 while response:
   print(response.split(b"\r\n"))
   response = s.recv(2048)
+
 ```
 
 ![image](/img/firewall/firewall-24.png)
