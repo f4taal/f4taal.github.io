@@ -1,5 +1,5 @@
 ---
-date: "2025-03-24T00:00:00Z"
+date: "2025-03-26T00:00:00Z"
 title: FireWall Testing and Evasion, Seed Project
 tags : ["Firewall", "Network Security", "Linux", "VPN"]
 
@@ -7,7 +7,7 @@ tags : ["Firewall", "Network Security", "Linux", "VPN"]
 # Introduction
 **Bypassing Firewalls with VPN – A Hands-On Lab Experience**
 
-In today’s digital landscape, understanding firewall evasion techniques is crucial for cybersecurity professionals, network administrators, and enthusiasts alike. Firewalls, while essential for securing networks, can sometimes be overly restrictive, blocking legitimate access to services or websites. [The SEED Labs Firewall Evasion Lab](https://seedsecuritylabs.org/Labs_20.04/Networking/Firewall_Evasion/) designed by Wenliang Du, provides a hands-on approach to mastering tunneling techniques such as VPN and port forwarding to bypass these restrictions. In this blog, we’ll walk you through the lab step-by-step, explain the network setup, and provide detailed instructions optimized for SEO with keywords like firewall evasion, SSH tunneling, VPN bypass, and port forwarding tutorial. Let’s dive in!
+In today’s digital landscape, understanding firewall evasion techniques is crucial for cybersecurity professionals, network administrators, and enthusiasts alike. While essential for securing networks, firewalls can sometimes be overly restrictive, blocking legitimate access to services or websites. [The SEED Labs Firewall Evasion Lab](https://seedsecuritylabs.org/Labs_20.04/Networking/Firewall_Evasion/) designed by Wenliang Du, provides a hands-on approach to mastering tunneling techniques such as VPN and port forwarding to bypass these restrictions. In this blog, we’ll walk you through the lab step-by-step, explain the network setup, and provide detailed instructions optimized for SEO with keywords like firewall evasion, SSH tunneling, VPN bypass, and port forwarding tutorial. Let’s dive in!
 
 ## Understanding the Lab’s Network Setup
 
