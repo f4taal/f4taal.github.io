@@ -1,6 +1,6 @@
 ---
 date: "2025-03-26T00:00:00Z"
-title: FireWall Testing and Evasion, Seed Project
+title: FireWall Testing and Evasion
 tags : ["Firewall", "Network Security", "Linux", "VPN"]
 
 ---
