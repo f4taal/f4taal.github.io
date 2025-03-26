@@ -60,6 +60,8 @@ curl www.example.com
 curl www.bbc.com
 curl https://edition.cnn.com
 ```
+![image](/img/firewall/firewall-28.png)
+
 ![image](/img/firewall/firewall-9.png)
 
 All three requests failed due to egress filtering.
