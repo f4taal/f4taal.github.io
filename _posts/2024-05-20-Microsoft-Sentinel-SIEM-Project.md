@@ -1,11 +1,20 @@
 ---
 date: "2025-02-26T00:00:00Z"
 title: Deployment of Microsoft Sentinel SIEM on Azure and SIEM Integration with Artificial Intelligence (ChatGPT)
+image: /assets/img/truesecrets/imgs.png
+categories: [SIEM Deployment, AI Integration]
 tags : ["Cloud","SIEM"]
 
 ---
 # Microsoft-Sentinel-SIEM-Project
 Configure and Deploy Microsoft Sentinel SIEM and integrate with ChatGPT
+
+| **Category**         | [SIEM Deployment and AI Integration](https://azure.microsoft.com/en-au/products/microsoft-sentinel)                                                                                                                                                                                                                                           |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Tactics**          | [Defense Evasion](https://learn.microsoft.com/en-us/azure/sentinel/mitre-coverage?tabs=azure-portal), [Incident Response](https://learn.microsoft.com/en-us/azure/sentinel/mitre-coverage?tabs=azure-portal), [Threat Hunting](https://learn.microsoft.com/en-us/azure/sentinel/mitre-coverage?tabs=azure-portal), [Automated Response](https://learn.microsoft.com/en-us/azure/sentinel/mitre-coverage?tabs=azure-portal) |
+| **Tools**            | Microsoft Sentinel, Azure Portal, ChatGPT, Azure Logic Apps         |
+| **Difficulty**       | Intermediate                                                                                                                                                                                                                                                                                                                                                                |
+| **Official Walkthrough** | [Microsoft Sentinel Documentation](https://learn.microsoft.com/en-us/azure/sentinel/)                                                                                                                                                                                                                            |
 
 ### Introduction
 
@@ -24,9 +33,9 @@ Before beginning, ensure you have;
 
 2. **Configure Data Connectors** - Set up data connectors for the required data sources, such as Office 365 and Azure Active Directory.
 
-3. **Activate Microsoft Sentinel** - Enabled Microsoft Sentinel in the Azure Security Center settings.
+3. **Activate Microsoft Sentinel** - Enable Microsoft Sentinel in the Azure Security Center settings.
 
-4. **Create Alert Criteria** - In the Microsoft Sentinel dashboard, set up alert rules based on the company's security specifications, such as identifying erroneous network activities and suspicious logins.
+4. **Create Alert Criteria** - In the Microsoft Sentinel dashboard, set up alert rules based on the company's or your security specifications, such as identifying erroneous network activities and suspicious logins.
 
 *Create Log Analytics Workspace*
 
@@ -49,7 +58,7 @@ Before beginning, ensure you have;
 
 ## Step 2: Data Ingestion and Configuration
 
-In this stage I focused on data ingestion and configuration for Microsoft Sentinel. I connected Sentinel to various data sources, including Azure services, on-premises systems, and third-party applications. I tailored the log-collecting parameters to our specific monitoring requirements, determining which logs to ingest and the collection frequency. I turned on threat intelligence feeds to integrate external threat information, enhancing our ability to detect and respond to potential security incidents. Additionally, I created Sentinel dashboards and views to provide relevant insights into our security posture, enabling quick identification and prioritization of security events.
+This stage is focused on data ingestion and configuration for Microsoft Sentinel. You will be required to connect Sentinel to various data sources, including Azure services, on-premises systems, and third-party applications.*I tailored the log-collecting parameters to our specific monitoring requirements, determining which logs to ingest and the collection frequency, turned on threat intelligence feeds to integrate external threat information, enhancing our ability to detect and respond to potential security incidents, and lastly I created Sentinel dashboards and views to provide relevant insights into our security posture, enabling quick identification and prioritization of security events.*
 
 ![image](/img/truesecrets/sentinel-8.png)
 
@@ -70,7 +79,7 @@ In this stage I focused on data ingestion and configuration for Microsoft Sentin
 
 
 ## Step 3: Incident Detection and Response
-In this stage, I concentrated on incident detection and response. I reviewed the security events logged by the system, using machine learning and advanced analytics to identify potential threats and anomalies. I created incident processes detailing the steps to handle various security issues, streamlining the response process. I configured automated response actions to enable swift reactions to specific incidents, reducing manual intervention and response times. Additionally, I performed in-depth security incident analyses using Sentinel's features to gather information, determine root causes, and resolve issues effectively.
+In this stage you will review the security events logged by the system, using machine learning and advanced analytics to identify potential threats and anomalies. *I created incident processes detailing the steps to handle various security issues, streamlining the response process, configured automated response actions to enable swift reactions to specific incidents, reducing manual intervention and response times, and performed in-depth security incident analyses using Sentinel's features to gather information, determine root causes, and resolve issues effectively.*
 
 ![image](/img/truesecrets/sentinel-14.png)
 
@@ -99,7 +108,7 @@ In this stage, I concentrated on incident detection and response. I reviewed the
 ![image](/img/truesecrets/sentinel-26.png)
 
 ## Step 4: Integration with Azure Security Services
-In this stage, I integrated Microsoft Sentinel with various Azure security services. I utilized Azure Security Center's threat intelligence and advanced threat prevention capabilities. I enhanced user and entity data integration with Azure Active Directory, facilitating more contextually rich investigations and threat hunting. Additionally, I set up Sentinel playbooks to automate response activities and orchestrate incident response processes across our Azure infrastructure.
+In this stage you will integrate Microsoft Sentinel with various Azure security services. *I utilized Azure Security Center's threat intelligence and advanced threat prevention capabilities, enhanced user and entity data integration with Azure Active Directory, facilitating more contextually rich investigations and threat hunting, and then set up Sentinel playbooks to automate response activities and orchestrate incident response processes across our Azure infrastructure.*
 
 
 ![image](/img/truesecrets/sentinel-27.png)
@@ -115,7 +124,7 @@ In this stage, I integrated Microsoft Sentinel with various Azure security servi
 ![image](/img/truesecrets/sentinel-32.png)
 
 ## Step 5: Continuous Monitoring and Optimization
-In this stage, my focus was on continuous monitoring and optimization. I created regular queries to assess our security posture and identify potential risks or vulnerabilities. Reviewing and refining the alert policies ensured they aligned with the organization's security priorities and risk tolerance. Additionally, I conducted capacity planning and scaling to ensure our Sentinel deployment could handle increasing data volumes and maintain peak performance over time.
+In this stage, the focus is on continuous monitoring and optimization. I created regular queries to assess our security posture and identify potential risks or vulnerabilities. Reviewing and refining the alert policies ensured they aligned with the the security priorities and risk tolerance. Additionally, I conducted capacity planning and scaling to ensure our Sentinel deployment could handle increasing data volumes and maintain peak performance over time.
 
 
 ![image](/img/truesecrets/sentinel-33.png)
