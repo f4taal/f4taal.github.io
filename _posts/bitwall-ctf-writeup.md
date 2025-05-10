@@ -1,6 +1,6 @@
 ---
 date: "2025-05-09T00:00:00Z"
-title: Ctf Write-up
+title: Ctf Write-up(BitWall KE)
 tags : ["Forensics", "Misc", "steganography"]
 
 ---
