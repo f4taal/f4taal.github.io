@@ -1,6 +1,6 @@
 ---
-date: "2025-05-09T00:00:00Z"
-title: Ctf Write-up(BitWall KE)
+date: "2025-05-08T00:00:00Z"
+title: Bitwall CTF Writeup
 tags : ["Forensics", "Misc", "steganography"]
 
 ---
