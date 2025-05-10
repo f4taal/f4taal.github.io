@@ -16,7 +16,7 @@ timezone:
 
 title: Fataal Muthoni # the main title
 
-tagline: Cyber Security Researcher # it will display as the subtitle
+tagline: Cyber Security # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
