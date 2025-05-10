@@ -1,6 +1,6 @@
 ---
 date: "2025-05-09T00:00:00Z"
-title: BitWall CTF Write-up
+title: BitWallctf Wlakthrough
 tags : ["Forensics", "Misc", "steganography"]
 
 ---
@@ -141,7 +141,14 @@ This was a very easy challenge, you were required to download the attached txt f
 
 ### Pent-agony
 
+![image](/img/misc/pent.png)
+
+![image](/img/misc/pent1.png)
+
+![image](/img/misc/pent2.png)
 ```
 "Bacon is a type of salt-cured pork, typically made from cuts like the belly or the less fatty parts of the back. Itâ€™s usually sliced thin and often served as a side dish or as part of meals like breakfast, commonly paired with eggs. Bitwall under siege."
 
 ```
+
+Flag: *BitCTF{Bitwall_Under_Siege}*
