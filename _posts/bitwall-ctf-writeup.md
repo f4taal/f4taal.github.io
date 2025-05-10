@@ -1,6 +1,6 @@
 ---
 date: "2025-05-09T00:00:00Z"
-title: BitWallctf Wlakthrough
+title: BitWall
 tags : ["Forensics", "Misc", "steganography"]
 
 ---
