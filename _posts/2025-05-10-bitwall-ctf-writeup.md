@@ -81,6 +81,7 @@ Another major indicator of Remcos is its use of process injection techniques. Th
 ### Message from Heaven
 
 ![image](/img/misc/messagefromheaven.png)
+
 Based on the challenge description the clue was given as `vuln4ppcl0uds3c` which suggested a cloud security vulnerability with `s3c` pointing to AWS S3. From my research S3 bucket misconfigurations are a classic where a bucket is left publicly accessible. *No direct connection needed* hinted that the solution to the challenge is passive.
  I assumed that the `vuln4ppcl0uds3c` culd be the bucket name and tried accessing the bucket using, `http://vuln4ppcl0uds3c.s3.amazonaws.com/` to check the public access, and if it was public I could see it's objects fore more clues.
 
