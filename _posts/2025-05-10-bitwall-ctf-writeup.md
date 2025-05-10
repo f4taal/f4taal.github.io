@@ -152,3 +152,7 @@ This was a very easy challenge, you were required to download the attached txt f
 ```
 
 Flag: *BitCTF{Bitwall_Under_Siege}*
+
+# Steganography
+
+*More categories and posts coming soon*
