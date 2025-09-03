@@ -4,34 +4,41 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hi, I’m **Fataal Muthoni**, a passionate cybersecurity professional with a strong background in network security, incident response, and vulnerability assessments and penetration testing. I’m dedicated to protecting organizations from cyber threats and ensuring robust defenses through proactive monitoring, threat hunting, and detailed technical reporting.
+# About
+
+Welcome to my blog! I’m **Fataal Muthoni**, a dedicated cybersecurity professional with expertise in network security, incident response, vulnerability assessments, and penetration testing. My mission is to share insightful cybersecurity blogs, detailed CTF writeups, and valuable resources, fostering knowledge exchange and technical growth in the cybersecurity community.
 
 ## My Journey in Cybersecurity
 
-I hold a degree in **Information Technology** from Zetech University (2021–2023), where I developed a solid foundation in networking, systems administration, and programming. My passion for cybersecurity grew through hands-on training programs like **Cyber Shujaa** (Cloud and Network Security) and the **BlueTeam Scholarship** from Cyber Talents and CTFs which equipped me with practical skills in threat detection and incident response. I’m also a **Certified Junior Penetration Tester (eJPT)** and currently pursuing the **Certified Red Team Analyst** certification to deepen my offensive security expertise.
+My journey in cybersecurity began when I joined the ITECH club at Zetech University during my Information Technology diploma (2021–2023), where I developed a strong foundation in networking, systems administration, and programming. Participating in Capture The Flag (CTF) challenges and cybersecurity bootcamps through the ITECH club sparked my passion and honed my practical skills in threat detection and incident response. These bootcamps provided hands-on experience, enabling me to become more technical and earn vouchers for prestigious certifications. Through dedication, I achieved the **Certified Junior Penetration Tester (eJPT)** and **Practical Ethical Hacking (PT1) certification from TryHackMe**, and the **Certified Red Team Analyst** (CRTA) certification to deepen my expertise in offensive security.
 
-My professional journey includes roles that have honed my technical and analytical skills:
+## What I do
 
-- **Freelancer (Jan 2023 – Present)**: I conduct penetration testing, identify critical vulnerabilities and provide actionable recommendations that will improve their security postures. I have also secured Azure cloud environments and resolved incidents using tools like Wireshark and SIEM platforms.
-- **VAPT Trainee at CyberSafe Foundation (March – Dec 2024)**: I performed advanced vulnerability assessments on systems like NeoBank and Metasploitable, reducing exposure to threats through optimized firewalls and patch management. I also conducted forensic investigations using SIEM tools, presenting detailed reports to enhance security policies.
-- **IT Attachee at Gearbox Academy (Jan – April 2023)**: I developed secure web applications and configured Azure environments, ensuring compliance with security best practices and improving system reliability.
+As a freelance cybersecurity consultant, I specialize in delivering advanced cybersecurity and IT solutions, executing sophisticated penetration testing, comprehensive vulnerability assessments, and robust cloud security strategies across Azure and AWS platforms to fortify organizational defenses. I leverage expertise in Windows and Linux operating systems, employing cutting-edge SIEM tools (Velociraptor, Splunk, Wazuh, ELK) for real-time monitoring and log analysis, alongside exploitation frameworks to identify and mitigate risks. My work includes deploying endpoint security measures (IDS/IPS, firewalls, endpoint protection), scripting in Bash, PHP, Python, and JavaScript for automation, and utilizing tools like Git, Docker, and EDR for network traffic analysis, vulnerability scanning, and web/network testing. With a strong foundation in technical writing and problem-solving, I produce well-detailed technical documentation, insightful blogs, and comprehensive reports, delivering actionable recommendations to enhance security postures and ensure operational resilience.
 
-## Skills
-  - **SIEM Tools**: Proficient with Velociraptor, Splunk, Wazuh, and ELK for real-time monitoring and log analysis.
-  - **Endpoint Security**: Experienced with IDS/IPS, firewalls, and endpoint protection tools to detect and mitigate threats.
-  - **Scripting & Programming**: Skilled in Bash, PHP, Python, and JavaScript for automation and analysis.
-  - **Developer & Security Tools**: Git, Docker, SIEM, EDR, Network traffic analysis, vulnerability scanning, Web
-and Network testing, Exploitation Frameworks, Linux & Windows OS, Microsoft Office, Technical writing, Reporting, and documentation.
-  - **Soft skills**: Problem-solving, Technical Writing, Reporting & Documentation, Continuous Learning
 
-- **Certifications**:
-  - Certified Junior Penetration Tester (eJPT)
-  - CCNA (Routing & Switching, CyberOps)
-  - Certified Red Team Analyst (in progress)
+## Certifications
+
+- [Certified Junior Penetration Tester (eJPT)](https://elearnsecurity.com/product/ejpt-certification/)
+- [Practical Ethical Hacking (PT1) - TryHackMe](https://www.credly.com/badges/2720a62e-15b3-48d9-bc1f-477e4569abcc/public_url)
+- [Certified Red Team Analyst (CRTA)](https://labs.cyberwarfare.live/credential/achievement/687ead96bf373ee66a181229)
+
+## What You’ll Find on This Blog
+
+I share insights, tutorials, and resources on:
+
+- Penetration testing and vulnerability assessment techniques
+- Cloud security best practices (Azure-focused)
+- Network security and incident response strategies
+- CTF walkthroughs and solutions
+- Cybersecurity trends, tools, and career advice for aspiring professionals
 
 ## Beyond Cybersecurity
 
-When I’m not diving into threat intelligence or analyzing logs, I enjoy participating in Capture The Flag (CTF) challenges, on platforms like Hack The Box and CTFtime. I also share articles and the walkthroughs of CTFs i managed to solve and also insights on cybersecurity trends, tools, and best practices. I’m passionate about mentoring aspiring cybersecurity professionals and staying at the forefront of the field through continuous learning.
+When I’m not analyzing logs or hunting threats, I participate in Capture The Flag (CTF) challenges on platforms like Hack The Box and CTFtime. I enjoy sharing my CTF walkthroughs and articles on cybersecurity trends to inspire and educate others. 
+Mentoring aspiring cybersecurity professionals and staying updated with the latest industry developments are passions that keep me driven.
+I also love adventure
+
 
 ## Let’s Connect
 
