@@ -19,7 +19,7 @@ As a freelance cybersecurity consultant, I specialize in delivering advanced cyb
 
 ## Certifications
 
-- [Certified Junior Penetration Tester (eJPT)](https://elearnsecurity.com/product/ejpt-certification/)
+- [Certified Junior Penetration Tester (eJPT)](https://certs.ine.com/0fadc184-7652-4d6c-96f2-2359fa28b6f0#acc.73GefJFH)
 - [Practical Ethical Hacking (PT1) - TryHackMe](https://www.credly.com/badges/2720a62e-15b3-48d9-bc1f-477e4569abcc/public_url)
 - [Certified Red Team Analyst (CRTA)](https://labs.cyberwarfare.live/credential/achievement/687ead96bf373ee66a181229)
 
