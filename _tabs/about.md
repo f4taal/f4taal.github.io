@@ -4,8 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# About
-
 Welcome to my blog! I’m **Fataal Muthoni**, a dedicated cybersecurity professional with expertise in network security, incident response, vulnerability assessments, and penetration testing. My mission is to share insightful cybersecurity blogs, detailed CTF writeups, and valuable resources, fostering knowledge exchange and technical growth in the cybersecurity community.
 
 ## My Journey in Cybersecurity
