@@ -1,7 +1,6 @@
 ---
 date: "2025-02-26T00:00:00Z"
 title: Deployment of Microsoft Sentinel SIEM on Azure and SIEM Integration with Artificial Intelligence (ChatGPT)
-image: /img/truesecrets/imgs.png
 categories: [SIEM Deployment, AI Integration]
 tags : ["Cloud","SIEM"]
 
