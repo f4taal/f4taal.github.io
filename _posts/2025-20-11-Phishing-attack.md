@@ -1,5 +1,5 @@
 ---
-date: "2025-11-25T00:00:00Z"
+date: "2025-11-24T00:00:00Z"
 title: Phishing (PART 1)
 tags : ["Phishing"]
 categories: ["Security Awareness"]
