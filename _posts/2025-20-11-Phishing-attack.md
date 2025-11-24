@@ -25,7 +25,7 @@ Spearphishing is a highly targeted form of phishing cyberattack. Unlike standard
 >
 > **To:** `clarajames.2@TTYK.com`
 >
-> **Date:** November 25, 2025, 8:45 AM
+> **Date:** November 20, 2025, 8:45 AM
 >
 > **Subject:** **URGENT: Overdue Invoice Payment (#INV-2025-992)**
 >
