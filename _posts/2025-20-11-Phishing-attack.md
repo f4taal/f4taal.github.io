@@ -1,12 +1,12 @@
 ---
 date: "2025-11-24T00:00:00Z"
-title: Phishing (PART 1)
+title: What is Phishing (PART 1)
 tags : ["Phishing"]
 categories: ["Security Awareness"]
 
 ---
 ## What is Phishing?
-Phishing is defined as a cybercrime where attackers poses as trusted entities like a bank, a colleague, HR, or a delivery service to trick victims into revealing sensitive information or installing malware by opening the attached files.
+Phishing is defined as a cybercrime in which attackers pose as trusted entities, such as a bank, a colleague, HR, or a delivery service, to trick victims into revealing sensitive information or installing malware by opening attached files.
 
 ### The Sniper Approach: Spearphishing
 While generic phishing is a numbers game, **Spearphishing** targets a specific individual, organization, or department.
@@ -15,7 +15,7 @@ While generic phishing is a numbers game, **Spearphishing** targets a specific i
 
 1.  **High Personalization:** Attackers do their research. They research about you on social media platforms like LinkedIn and Facebook to see who your boss is, identify your department, or learn what projects you are currently working on.
 2.  **Established Trust:** With this acquired information, they craft emails with real, recognizable details. You are much more likely to trust these references and lower your defenses.
-3.  **The "Malicious Document" Connection:** In sophisticated attacks, hackers often use spearphishing to deliver their initial payload embedded in a PDF, Excel, or Word document. These files are tailored to look legitimate, for example, appearing to come from your Finance Department.
+3.  **The "Malicious Document" Connection:** In sophisticated attacks, hackers often use spearphishing to deliver their initial payload embedded in a PDF, Excel, or Word document. These files are designed to appear legitimate, for example, by seeming to originate from your Finance Department.
 
 ***
 
