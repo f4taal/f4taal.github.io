@@ -59,7 +59,7 @@ At first glance, this email appears to be a standard business communication. How
 * The display name says **"Accounts Payable,"** implying it is an internal department from TTYK. However, the actual sending address is `notifications@ITTYK.com`. Legitimate internal emails should come from your company's domain (e.g., `@TTYK.com`). Attackers register generic-sounding domains, such as `ITTYK.com`, to trick victims into believing the email is from a trusted external vendor system.
 
 **2. The Dangerous File Extension (.docm)**
-The attachment `Invoice_INV-992_Details.docm` ends in **.docm**. Legitimate invoices are almost always **.pdf** files. The extension **.docm** stands for "Word Document with Macros." This indicates the file contains executable scripts. If you open it, the document will likely ask you to "Enable Content," which triggers the attack chain described in Part 2 of this blog.
+* The attachment `Invoice_INV-992_Details.docm` ends in **.docm**. Legitimate invoices are almost always **.pdf** files. The extension **.docm** stands for "Word Document with Macros." This indicates the file contains executable scripts. If you open it, the document will likely ask you to "Enable Content," which triggers the attack chain described in Part 2 of this blog.
 
 **3. The "Password Protection" Trick**
 * The email locks the file with the password `SecurePay2025`. While this looks like a security measure for "sensitive banking details," it is actually an **evasion tactic**. Most email security scanners (antivirus and firewalls) cannot inspect the contents of an encrypted or password-protected file. By locking the document, the attacker ensures their malware bypasses the company's filters and lands directly in Clara's inbox.
@@ -68,7 +68,7 @@ The attachment `Invoice_INV-992_Details.docm` ends in **.docm**. Legitimate invo
 * The subject line uses **"URGENT"** and **"Overdue,"** combined with a high dollar amount (**$14,250.00**) and threats of a "payment hold." Phishing relies on emotional manipulation. The attacker wants Clara to panic about the financial discrepancy and open the file immediately to "fix" the problem, rather than pausing to verify the sender's identity.
 
 **5. Targeted Personalization (Spearphishing)**
-* The email addresses the victim by her full name (**Clara James**) and references her specific department. This proves the attacker performed reconnaissance (likely via LinkedIn or the corporate website). This specific detail builds trust, making the email seem like a routine internal request rather than a random spam message.
+* The email addresses the victim by her full name (**Clara James**) and references her specific department. This proves the attacker performed reconnaissance (likely via LinkedIn or the corporate website). This specific detail builds trust, making the email appear to be a routine internal request rather than a random spam message.
 
 ## Part 2: Anatomy of a Click (What Happens Next)........
 
