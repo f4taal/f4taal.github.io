@@ -8,8 +8,8 @@ categories: ["Security Awareness"]
 ## What is Phishing?
 Phishing is defined as a cybercrime in which attackers pose as trusted entities, such as a bank, a colleague, HR, or a delivery service, to trick victims into revealing sensitive information or installing malware by opening attached files.
 
-### The Sniper Approach: Spearphishing
-While generic phishing is a numbers game, **Spearphishing** targets a specific individual, organization, or department.
+### Spearphishing
+Spearphishing is a highly targeted form of phishing cyberattack. Unlike standard phishing, which sends generic emails to thousands of people, **Spearphishing** targets a specific individual, organization, or department.
 
 **Why it Works So Well:**
 
@@ -36,12 +36,14 @@ While generic phishing is a numbers game, **Spearphishing** targets a specific i
 > Please review the attached remittance advice immediately to confirm the services rendered so we can release the payment hold.
 >
 > **SECURITY NOTICE:**
-> Because this document contains sensitive banking details, it is password-protected.
+>
+>  Because this document contains sensitive banking details, it is password-protected.
 > **Password:** `SecurePay2025`
 >
 > Regards,
 >
 > **Sarah Jenkins**
+>
 > Senior Financial Controller
 >
 > ---
