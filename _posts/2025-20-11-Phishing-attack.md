@@ -24,7 +24,9 @@ While generic phishing is a numbers game, **Spearphishing** targets a specific i
 > **From:** Accounts Payable `(notifications@secure-billing-portal.net)`
 >
 > **To:** `clarajames.2@TTYK.com`
+>
 > **Date:** November 25, 2025, 8:45 AM
+>
 > **Subject:** **URGENT: Overdue Invoice Payment (#INV-2025-992)**
 >
 > Dear Clara James,
