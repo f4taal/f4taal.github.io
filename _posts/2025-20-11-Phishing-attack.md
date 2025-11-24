@@ -22,6 +22,7 @@ While generic phishing is a numbers game, **Spearphishing** targets a specific i
 ### Sample Spearphishing Email
 
 > **From:** Accounts Payable `(notifications@secure-billing-portal.net)`
+>
 > **To:** `clarajames.2@TTYK.com`
 > **Date:** November 25, 2025, 8:45 AM
 > **Subject:** **URGENT: Overdue Invoice Payment (#INV-2025-992)**
@@ -44,6 +45,7 @@ While generic phishing is a numbers game, **Spearphishing** targets a specific i
 > ---
 > 📎 **Attachment:** `Invoice_INV-992_Details.docm` (42 KB)
 
+***
 
-## Part 2: Anatomy of a Click (What Happens Next)
+## Part 2: Anatomy of a Click (What Happens Next)........
 
